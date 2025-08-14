@@ -1,5 +1,11 @@
+
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FaF8;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
 }
