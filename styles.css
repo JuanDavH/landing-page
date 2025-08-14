@@ -4,6 +4,10 @@ body {
 
 .header {
     background-color: #1F2937;
+    padding: 32px 196px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -15,4 +19,8 @@ body {
 .header-links {
     font-size: 18px;
     color: #E5E7EB;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    gap: 16px;
 }
