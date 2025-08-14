@@ -28,3 +28,7 @@ body {
     margin: 0;
     gap: 16px;
 }
+
+.hero-image {
+    width: 550px;
+}
