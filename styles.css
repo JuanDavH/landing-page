@@ -89,3 +89,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.info-image {
+    margin: 32px;
+}
+
+.caption {
+    color: gray;
+    font-size: 18px;
+    text-align: center;
+    width: 200px;
+}
