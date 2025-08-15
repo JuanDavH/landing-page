@@ -31,7 +31,7 @@ body {
 
 .hero {
     background-color: #1F2937;
-    padding: 64px 256px;
+    padding: 96px 256px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,6 +42,7 @@ body {
     align-items: flex-start;
     flex-wrap: wrap;
     width: 500px;
+    gap: 24px;
 }
 
 .hero-main-text {
@@ -53,6 +54,16 @@ body {
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    padding: 8px 32px;
 }
 
 .hero-image {
