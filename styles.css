@@ -94,6 +94,10 @@ body {
     margin: 32px;
 }
 
+.info-image img {
+    width: 200px;
+}
+
 .caption {
     color: gray;
     font-size: 18px;
