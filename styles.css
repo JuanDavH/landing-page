@@ -159,3 +159,11 @@ body {
 .signup .signup-button{
     border: 3px solid white;
 }
+
+.footer {
+    background-color:#1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 48px 256px;
+    text-align: center;;
+}
