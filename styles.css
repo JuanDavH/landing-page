@@ -124,9 +124,12 @@ body {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+    width: 850px;
 }
 
 .quote-attribution {
     font-size: 24px;
     font-weight: bold;
+    width: 850px;
+    text-align: right;
 }
