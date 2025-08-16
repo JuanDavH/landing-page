@@ -133,3 +133,13 @@ body {
     width: 850px;
     text-align: right;
 }
+
+.signup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.signup-title {
+    font-size: 24px;
+    font-weight: bold;
+}
