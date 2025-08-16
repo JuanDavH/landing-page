@@ -111,3 +111,11 @@ body {
     text-align: center;
     width: 200px;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 96px 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
