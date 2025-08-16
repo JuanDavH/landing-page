@@ -136,10 +136,26 @@ body {
 
 .signup {
     background-color: #3882F6;
-    color: #F9FAF8;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 64px 128px;
+    margin: 96px 300px;
+    border-radius: 15px;
+    border: none;
 }
 
 .signup-title {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: bold;
+    color: #F9FAF8;
+}
+
+.signup-subtext {
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+.signup .signup-button{
+    border: 3px solid white;
 }
