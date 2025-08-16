@@ -8,9 +8,11 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 32px 256px;
+    height: 96px;
+    padding: 0 15%;
     display: flex;
     align-items: center;
+    flex: 1;
     justify-content: space-between;
 }
 
@@ -35,8 +37,10 @@ body {
 
 .hero {
     background-color: #1F2937;
-    padding: 96px 256px;
+    height: 550px;
+    padding: 0 15%;
     display: flex;
+    flex: 1;
     justify-content: space-between;
     align-items: center;
 }
@@ -71,7 +75,7 @@ body {
 }
 
 .hero-image {
-    width: 550px;
+    max-width: 550px;
 }
 
 .info {
@@ -79,7 +83,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 32px 256px 96px 256px;
+    padding: 32px 15% 96px 15%;
 }
 
 .info-title {
@@ -92,6 +96,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap:wrap;
 }
 
 .info-image {
@@ -118,8 +123,9 @@ body {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 96px 256px;
+    padding: 96px 15%;
     display: flex;
+    flex: 1;
     flex-direction: column;
     align-items: center;
 }
@@ -128,19 +134,20 @@ body {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    width: 850px;
+    width: 65%;
 }
 
 .quote-attribution {
     font-size: 24px;
     font-weight: bold;
-    width: 850px;
+    width: 65%;
     text-align: right;
 }
 
 .signup {
     background-color: #3882F6;
     display:flex;
+    flex: 1;
     justify-content:space-between;
     align-items: center;
     padding: 64px 128px;
@@ -168,6 +175,8 @@ body {
     background-color:#1F2937;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 48px 256px;
-    text-align: center;;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
